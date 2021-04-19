@@ -1,0 +1,66 @@
+.containerSolutionMenu {
+  position: fixed;
+  display: flex;
+  margin-top: 10px;
+  /* margin-left: -1003px; */
+  margin-left: -74%;
+  flex-direction: column;
+  width: 640px;
+  background-color: white;
+  padding: 10px 40px;
+}
+.containerSolutionMenu h1 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.15em;
+  text-align: left;
+}
+.containerSolutionMenu h3 {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0.005em;
+  text-align: left;
+  margin-bottom: -10px;
+}
+.containerSolutionMenu p {
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.containerSolutionMenu img {
+  width: 40px;
+  height: 40px;
+  padding-right: 10px;
+}
+.containerSolutionMenu .ContainerNumberOne {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+.containerSolutionMenu .ContainerNumberOne .divRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerSolutionMenu .ContainerNumberTwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+}
+.containerSolutionMenu .ContainerNumberTwo .divRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}

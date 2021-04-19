@@ -1,0 +1,96 @@
+.homeConatinerMani {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../assets/men.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-y: 117px;
+  /* background-size: 50%; */
+  color: white;
+}
+.homeConatinerMani .logos {
+  position: relative;
+  z-index: -9999999;
+  display: flex;
+  margin-top: -55px;
+  justify-content: space-between;
+}
+
+.homeConatinerMani .bodySection {
+  width: 400px;
+  padding: 60px 40px;
+}
+.homeConatinerMani .bodySection .TitleOne {
+  display: flex;
+  align-items: center;
+}
+.homeConatinerMani .bodySection .TitleOne {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0.15em;
+  text-align: left;
+}
+.homeConatinerMani .bodySection .TitleOne img {
+  padding-right: 10px;
+}
+.homeConatinerMani .bodySection h1 {
+  /* width: 340px; */
+  /* font-family: Inter; */
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.homeConatinerMani .bodySection .description {
+  /* font-family: Inter; */
+  /* width: 416px; */
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.homeConatinerMani .bodySection .containerActionsButton {
+  display: flex;
+  justify-content: space-between;
+}
+.homeConatinerMani .bodySection .containerActionsButton button {
+  width: 184px;
+  height: 56px;
+  border: none;
+  background: #00e1e7;
+  border-radius: 80px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.homeConatinerMani .bodySection .containerActionsButton a img {
+  padding-right: 5px;
+}
+.homeConatinerMani .bodySection .containerActionsButton a {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 475px) {
+  .homeConatinerMani {
+    background-size: contain;
+  }
+  .homeConatinerMani .bodySection {
+    width: 100%;
+    padding: 0 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .homeConatinerMani .bodySection .containerActionsButton {
+    display: flex;
+    flex-direction: column;
+  }
+}

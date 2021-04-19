@@ -1,0 +1,22 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "icon":"https://firebasestorage.googleapis.com/v0/b/projetotimes-7c62a.appspot.com/o/icon-trilhas.png?alt=media&token=918bf23d-4817-4478-87af-e2faf3950528",
+        "title": "Trilhas de etapas",
+        "description": "Crie planos de estudos especificando aulas e/ou cursos e definindo a ordem que seus alunos devem estudar."
+      },
+      {
+        "id": 2,
+        "icon": "https://firebasestorage.googleapis.com/v0/b/projetotimes-7c62a.appspot.com/o/icon-playlists.png?alt=media&token=f57cda0c-2700-4506-aa64-1d3176f6ad2c",
+        "title": "Playlists",
+        "description": "Transforme uma coleção em uma playlist para poder ver vídeos e áudios em sequência offline."
+      },
+      {
+        "id": 3,
+        "icon": "https://firebasestorage.googleapis.com/v0/b/projetotimes-7c62a.appspot.com/o/icon-folder.png?alt=media&token=28d23870-46f3-4d5a-a047-c336b93ef06f",
+        "title": "Coleções",
+        "description": "Crie coleções, adicione conteúdos, reorganize ítens e deixe tudo do seu jeito para melhorar a experiência."
+      }
+    ]
+  }
